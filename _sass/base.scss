@@ -11,6 +11,8 @@ html, body, main
 body
 {
 	font-family: $font;
+	font-size: 1.2rem;
+	line-height: 1.618;
 	scroll-behavior: smooth;
 	text-align: center;
 	padding: 0;
@@ -39,6 +41,7 @@ nav > ul, .taglist{
 	display: flex;
 	flex-direction: column;
 	max-width: 80%;
+	text-justify: inter-word;
 	margin-left: auto;
 	margin-right: auto;
 }
