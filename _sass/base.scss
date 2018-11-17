@@ -46,6 +46,12 @@ nav > ul, .taglist{
 	margin-right: auto;
 }
 
+.content-wrapper > article
+{
+	display: flex;
+	flex-direction: column;
+}
+
 article
 {
 	padding: 1em;
@@ -74,6 +80,17 @@ article
 	margin: 0 0.5em 0 0.5em;
 }
 
+#projects > section
+{
+	text-align: left;
+	max-width: 75%;
+}
+
+#projects > section:nth-child(odd)
+{
+	text-align: right;
+	align-self: end;
+}
 
 footer
 {
