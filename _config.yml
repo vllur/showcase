@@ -1,0 +1,32 @@
+title: "showcase"
+description: "Starting point with many features to build your very own awesome Jekyll theme."
+author:
+  name: "showcase"
+  
+url: "https://vllur.github.io"
+baseurl: /showcase
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 2
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+exclude: [vendor]
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+google_analytics: ""
+owner: "vllur"
+lang: "en_GB"
+iso-lang: "en"
