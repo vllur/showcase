@@ -51,6 +51,30 @@ article
 	padding: 1em;
 }
 
+#skills > .wrapper
+{
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#skills > .wrapper > section
+{
+	text-align: left;
+}
+
+#skills > .wrapper > section ul
+{
+	margin: 0 0.1em 0 0.1em;
+}
+
+
+#skills > .wrapper > section > h3, h4
+{
+	margin: 0 0.5em 0 0.5em;
+}
+
+
 footer
 {
 	margin: auto auto 0 auto;
