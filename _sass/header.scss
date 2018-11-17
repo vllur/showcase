@@ -1,0 +1,47 @@
+header
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: $header-bg;
+    color: $header-text;
+}
+
+header a
+{
+    color: $header-a;
+}
+
+header a:hover
+{
+    color: $header-a-hover;
+}
+
+header a:active
+{
+    color: $header-a-active;
+}
+
+header a:visited
+{
+    color: $header-a;
+}
+
+header h1, header h6
+{
+    margin: 0.5em;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+ul li
+{
+    margin: 0 0.5em 0 0.5em;
+}

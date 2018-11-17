@@ -1,0 +1,25 @@
+footer
+{
+    color: $footer-text;
+    background-color: $footer-bg;
+}
+
+footer a
+{
+    color: $footer-a;
+}
+
+footer a:footer
+{
+    color: $footer-a-hover;
+}
+
+footer a:active
+{
+    color: $footer-a-active;
+}
+
+footer a:visited
+{
+    color: $footer-a;
+}
