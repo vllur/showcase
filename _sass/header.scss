@@ -10,6 +10,11 @@ header
     color: $header-text;
 }
 
+header > .header-wrapper
+{
+    position: absolute;
+}
+
 header a
 {
     color: $header-a;
@@ -34,13 +39,13 @@ header a:active
 
 header h1, header h3
 {
-    margin: 0.5em;
+    margin: 0em;
 }
 
-header > h1
+header h1
 {
     font-size: 400%;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 nav
@@ -57,4 +62,11 @@ nav ul
 ul li
 {
     margin: 0 0.5em 0 0.5em;
+}
+
+.scroll-bottom
+{
+    font-size: 2em;
+    position: absolute;
+    bottom: 7.5%;
 }

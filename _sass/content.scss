@@ -43,7 +43,7 @@ article a:active
     color: $content-a-active;
 }
 
-#skills > .wrapper
+#skills > .column-wrapper
 {
 	display: flex; 
 	flex-direction: row;
@@ -57,24 +57,31 @@ article a:active
     align-self: flex-start;
 }
 
-#skills > .wrapper
+#skills > .column-wrapper
 {
     margin-top: 1em;
 }
 
-#skills > .wrapper > section
+#skills > .column-wrapper > section
 {
 	text-align: left;
 }
 
-#skills > .wrapper > section ul
+#skills > .column-wrapper > section ul
 {
-	margin: 0 0.1em 0 0.1em;
+    margin: 0;
+    padding-left: 1em;
+    list-style-type: circle;
 }
 
-#skills > .wrapper > section > h3, h4
+#skills > .column-wrapper > section > h3
 {
-	margin: 0 0.5em 0 0.5em;
+    text-align: center;
+}
+
+#skills > .column-wrapper > section > h3, h4
+{
+    margin: 0;
 }
 
 #projects > section
