@@ -1,0 +1,104 @@
+.content-wrapper
+{
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	max-width: 80%;
+	text-justify: inter-word;
+	background-color: $content-bg;
+	color: $content-text;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-wrapper > article
+{
+	display: flex;
+	flex-direction: column;
+}
+
+article
+{
+	padding: 1em;
+}
+
+article a
+{
+    color: $content-a;
+    text-decoration: underline;
+}
+
+article a:visited
+{
+    color: $content-a;
+}
+
+article a:hover
+{
+    color: $content-a-hover;
+}
+
+article a:active
+{
+    color: $content-a-active;
+}
+
+#skills > .wrapper
+{
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.to-top
+{
+    margin: -3.1em 0 0 2em;
+    padding-right: 0.25em;
+    align-self: flex-start;
+}
+
+#skills > .wrapper
+{
+    margin-top: 1em;
+}
+
+#skills > .wrapper > section
+{
+	text-align: left;
+}
+
+#skills > .wrapper > section ul
+{
+	margin: 0 0.1em 0 0.1em;
+}
+
+#skills > .wrapper > section > h3, h4
+{
+	margin: 0 0.5em 0 0.5em;
+}
+
+#projects > section
+{
+	text-align: left;
+	max-width: 75%;
+}
+
+#projects > section:nth-child(odd)
+{
+	text-align: right;
+	align-self: end;
+}
+
+#contact > ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+#contact > ul > li
+{
+	margin: 0 0.5em 0 0.5em;
+}
