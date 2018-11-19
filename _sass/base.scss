@@ -55,11 +55,10 @@ footer
     right: 1em;
     border: none;
     outline: none;
-    background-color: $header-bg;
-    color: $header-text;
+	color: $header-text;
+	background: $header-bg;
     cursor: pointer;
     padding: 0.5em;
-	border-radius: 5px;
 	
 	transition-duration: 0.2s;
 }
