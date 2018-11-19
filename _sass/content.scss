@@ -5,8 +5,6 @@
 	flex-shrink: 1;
 	max-width: 80%;
 	text-justify: inter-word;
-	background-color: $content-bg;
-	color: $content-text;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -15,6 +13,11 @@
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.content-wrapper > article > h2
+{
+	border-bottom: 1px solid $content-header-border;
 }
 
 article
@@ -43,18 +46,27 @@ article a:active
     color: $content-a-active;
 }
 
-#skills > .column-wrapper
-{
-	display: flex; 
-	flex-direction: row;
-	justify-content: space-around;
-}
-
 .to-top
 {
     margin: -3.1em 0 0 2em;
     padding-right: 0.25em;
     align-self: flex-start;
+}
+
+#about > img
+{
+	align-self: center;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#skills > .column-wrapper
+{
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 1em;
 }
 
 #skills > .column-wrapper

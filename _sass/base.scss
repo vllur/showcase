@@ -12,6 +12,8 @@ body
 	scroll-behavior: smooth;
 	text-align: center;
 	padding: 0;
+	background-color: $content-bg;
+	color: $content-text;
 }
 
 main
@@ -42,7 +44,7 @@ footer
 .socials > li
 {
 	font-size: 1.75em;
-	margin: 0;
+	margin: 0 0.5em 0 0.5em;
 }
 
 #toTop{
