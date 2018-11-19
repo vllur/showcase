@@ -40,7 +40,7 @@ header a:active
 header h1, header h3
 {
     font-family: $nav-header-font;
-    margin: 0em;
+    margin: 0 0.25em 0 0.25em;
 }
 
 header h1
@@ -63,6 +63,7 @@ nav ul
 ul li
 {
     margin: 0 0.5em 0 0.5em;
+    flex-shrink: 0;
 }
 
 @keyframes floating{

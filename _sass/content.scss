@@ -61,6 +61,25 @@ article a:active
 	height: 100px;
 }
 
+#projects > section
+{
+	text-align: left;
+	max-width: 75%;
+}
+
+#projects > section:nth-child(odd)
+{
+	text-align: right;
+	align-self: end;
+}
+
+#projects > section:last-child
+{
+	text-align: center;
+	align-self: center;
+	margin-top: 1em;
+}
+
 #skills > .column-wrapper
 {
 	display: flex; 
@@ -94,18 +113,6 @@ article a:active
 #skills > .column-wrapper > section > h3, h4
 {
     margin: 0;
-}
-
-#projects > section
-{
-	text-align: left;
-	max-width: 75%;
-}
-
-#projects > section:nth-child(odd)
-{
-	text-align: right;
-	align-self: end;
 }
 
 #contact > ul
