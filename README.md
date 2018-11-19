@@ -4,6 +4,7 @@ Simple portfolio-showcase Jekyll theme, with Google Analytics and Seo optimizati
 
 ### Dependencies:
   - [normalize.css (8.0.0)](https://github.com/necolas/normalize.css/)
+  - [particle.js](https://github.com/VincentGarreau/particles.js/)
   - [Fontello](http://fontello.com/)
   - Google Analytics
 
