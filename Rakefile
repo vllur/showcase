@@ -1,3 +1,0 @@
-require 'jekyll/test/tasks'
-
-task default: "jekyll:check"
