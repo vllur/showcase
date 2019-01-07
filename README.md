@@ -1,4 +1,4 @@
-# [showcase](https://vllur.github.io/showcase/)
+# [showcase](https://vllur.github.io/showcase/) [![Build Status](https://travis-ci.org/vllur/showcase.svg?branch=master)](https://travis-ci.org/vllur/showcase)
 
 Simple portfolio-showcase Jekyll theme, with Google Analytics and Seo optimization.
 
