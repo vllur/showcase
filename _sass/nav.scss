@@ -1,0 +1,30 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 0 2em;
+
+  width: calc(100vw - 4em);
+  height: 3em;
+
+  background-color: $nav-bg;
+}
+
+nav a:link{
+  display: flex;
+  align-content: center;
+  color: $nav-a;
+}
+
+nav a:visited{
+  color: $nav-a;
+}
+
+nav a:hover{
+  color: $nav-a-hover;
+}
+
+nav a:active{
+  color: $nav-a-active;
+}
