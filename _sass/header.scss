@@ -1,85 +1,85 @@
 header
 {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
-    background-color: $header-bg;
-    color: $header-text;
+  background-color: $header-bg;
+  color: $header-text;
 }
 
 header > .header-wrapper
 {
-    position: absolute;
+  position: absolute;
 }
 
 header a
 {
-    color: $header-a;
-    text-decoration: none;
+  color: $header-a;
+  text-decoration: none;
 }
 
 header a:visited
 {
-    color: $header-a;
+  color: $header-a;
 }
 
 header a:hover
 {
-    color: $header-a-hover;
-    text-decoration: underline;
+  color: $header-a-hover;
+  text-decoration: underline;
 }
 
 header a:active
 {
-    color: $header-a-active;
+  color: $header-a-active;
 }
 
 header h1, header h3
 {
-    font-family: $nav-header-font;
-    margin: 0 0.25em 0 0.25em;
+  font-family: $nav-header-font;
+  margin: 0 0.25em 0 0.25em;
 }
 
 header h1
 {
-    font-size: 400%;
-    margin: 0;
+  font-size: 400%;
+  margin: 0;
 }
 
 nav
 {
-    margin: 0.5em;
+  margin: 0.5em;
 }
 
 nav ul
 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 ul li
 {
-    margin: 0 0.5em 0 0.5em;
-    flex-shrink: 0;
+  margin: 0 0.5em 0 0.5em;
+  flex-shrink: 0;
 }
 
 @keyframes floating{
-    from{margin-bottom:0}
-    to{margin-bottom:0.25em}
+  from{margin-bottom:0}
+  to{margin-bottom:0.25em}
 }
 
 .scroll-bottom
 {
-    will-change: margin;
-    font-size: 3em;
-    position: absolute;
-    bottom: 7.5%;
-    animation-name: floating;
-    animation-duration: 0.75s;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  will-change: margin;
+  font-size: 3em;
+  position: absolute;
+  bottom: 7.5%;
+  animation-name: floating;
+  animation-duration: 0.75s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }

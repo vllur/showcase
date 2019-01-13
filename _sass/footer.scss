@@ -1,27 +1,27 @@
 footer
 {
-    color: $footer-text;
-    background-color: $footer-bg;
+  color: $footer-text;
+  background-color: $footer-bg;
 }
 
 footer a
 {
-    color: $footer-a;
-    text-decoration: none;
+  color: $footer-a;
+  text-decoration: none;
 }
 
 footer a:visited
 {
-    color: $footer-a;
+  color: $footer-a;
 }
 
 footer a:hover
 {
-    color: $footer-a-hover;
-    text-decoration: underline;
+  color: $footer-a-hover;
+  text-decoration: underline;
 }
 
 footer a:active
 {
-    color: $footer-a-active;
+  color: $footer-a-active;
 }

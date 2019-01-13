@@ -1,130 +1,54 @@
 .content-wrapper
 {
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 1;
-	max-width: 80%;
-	text-justify: inter-word;
-	margin-left: auto;
-	margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  max-width: 80%;
+  text-justify: inter-word;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-wrapper > article
 {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-wrapper > article > h2
 {
-	border-bottom: 1px solid $content-header-border;
+  border-bottom: 1px solid $content-header-border;
 }
 
 article
 {
-	padding: 1em;
+  padding: 1em;
 }
 
 article a
 {
-    color: $content-a;
-    text-decoration: underline;
+ color: $content-a;
+ text-decoration: underline;
 }
 
 article a:visited
 {
-    color: $content-a;
+ color: $content-a;
 }
 
 article a:hover
 {
-    color: $content-a-hover;
+ color: $content-a-hover;
 }
 
 article a:active
 {
-    color: $content-a-active;
+ color: $content-a-active;
 }
 
 .to-top
 {
-    margin: -3.1em 0 0 2em;
-    padding-right: 0.25em;
-    align-self: flex-start;
-}
-
-#about > img
-{
-	align-self: center;
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-}
-
-#projects > section
-{
-	text-align: left;
-	max-width: 75%;
-}
-
-#projects > section:nth-child(odd)
-{
-	text-align: right;
-	align-self: end;
-}
-
-#projects > p
-{
-	text-align: center;
-	align-self: center;
-	margin: 1em 0 0 0;
-}
-
-#skills > .column-wrapper
-{
-	display: flex; 
-	flex-direction: row;
-	justify-content: space-around;
-	margin-top: 1em;
-}
-
-#skills > .column-wrapper
-{
-    margin-top: 1em;
-}
-
-#skills > .column-wrapper > section
-{
-	text-align: left;
-}
-
-#skills > .column-wrapper > section ul
-{
-    margin: 0;
-    padding-left: 1em;
-    list-style-type: circle;
-}
-
-#skills > .column-wrapper > section > h3
-{
-    text-align: center;
-}
-
-#skills > .column-wrapper > section > h3, h4
-{
-    margin: 0;
-}
-
-#contact > ul
-{
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	padding: 0;
-	margin: 0;
-}
-
-#contact > ul > li
-{
-	margin: 0 0.5em 0 0.5em;
+ margin: -3.1em 0 0 2em;
+ padding-right: 0.25em;
+ align-self: flex-start;
 }
