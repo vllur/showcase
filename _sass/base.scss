@@ -1,9 +1,11 @@
-html, body, main{
+html, body{
   min-height: 100vh;
   min-width: 100%;
 }
 
 body{
+  display: flex;
+  flex-direction: column;
   font-family: $font;
   font-size: 1.2rem;
   line-height: 1.618;
@@ -12,12 +14,6 @@ body{
   padding: 0;
   background-color: $content-bg;
   color: $content-text;
-}
-
-main{
-  display: flex;
-  flex-direction: column;
-  padding: 0;
 }
 
 img{

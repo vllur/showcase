@@ -1,19 +1,18 @@
-.content-wrapper{
+main{
   display: flex;
   flex-direction: column;
   flex-shrink: 1;
   max-width: 80%;
   text-justify: inter-word;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto;
 }
 
-.content-wrapper > article{
+main > article{
   display: flex;
   flex-direction: column;
 }
 
-.content-wrapper > article > h2{
+main > article > h2{
   border-bottom: 1px solid $content-header-border;
 }
 

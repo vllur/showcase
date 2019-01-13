@@ -2,15 +2,13 @@
 <html lang="{{ site.iso-lang }}">
 {% include head.html %}
 <body>
-<main>
 {% include header.html %}
 
-<div class="content-wrapper">
+<main>
   {{ content }}
-</div>
+</main>
 
 {% include footer.html %}
-</main>
 <script src="{{ "/assets/js/particle.js" | prepend: site.baseurl }}"></script>
 {% if site.google_analytics %}
   {% include analytics.html %}
