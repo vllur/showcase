@@ -65,21 +65,3 @@ ul li
   margin: 0 0.5em 0 0.5em;
   flex-shrink: 0;
 }
-
-@keyframes floating{
-  from{margin-bottom:0}
-  to{margin-bottom:0.25em}
-}
-
-.scroll-bottom
-{
-  will-change: margin;
-  font-size: 3em;
-  position: absolute;
-  bottom: 7.5%;
-  animation-name: floating;
-  animation-duration: 0.75s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
