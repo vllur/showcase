@@ -1,4 +1,10 @@
 <footer>
+  <div>
+    <p>
+      Lorem ipsum dolor.
+    </p>
+    {% include socials.html %}
+  </div>
   <a href="{{ "/" | prepend, site.baseurl}}">
     {{ site.owner }} &copy;
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}

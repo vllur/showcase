@@ -1,6 +1,5 @@
-header
-{
-  height: 100vh;
+header{
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,58 +9,34 @@ header
   color: $header-text;
 }
 
-header > .header-wrapper
-{
+header > .header-wrapper{
   position: absolute;
 }
 
-header a
-{
+header a{
   color: $header-a;
   text-decoration: none;
 }
 
-header a:visited
-{
+header a:visited{
   color: $header-a;
 }
 
-header a:hover
-{
+header a:hover{
   color: $header-a-hover;
   text-decoration: underline;
 }
 
-header a:active
-{
+header a:active{
   color: $header-a-active;
 }
 
-header h1, header h3
-{
+header h1, header h3{
   font-family: $nav-header-font;
   margin: 0 0.25em 0 0.25em;
 }
 
-header h1
-{
+header h1{
   font-size: 400%;
   margin: 0;
-}
-
-nav
-{
-  margin: 0.5em;
-}
-
-nav ul
-{
-  display: flex;
-  justify-content: center;
-}
-
-ul li
-{
-  margin: 0 0.5em 0 0.5em;
-  flex-shrink: 0;
 }

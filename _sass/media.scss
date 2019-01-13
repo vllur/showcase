@@ -1,64 +1,27 @@
-@media only screen and (min-width: 1200px)
-{
-  body
-  {
+@media only screen and (min-width: 1200px){
+  body{
     font-size: 1.5em;
   }
 
-  .content-wrapper
-  {
+  .content-wrapper{
     max-width: 60%;
   }
 }
 
-@media only screen and (max-width: 800px)
-{
-  header h1
-  {
+@media only screen and (max-width: 800px){
+  header h1{
     font-size: 300%;
   }
-
-  .scroll-bottom
-  {
-    font-size: 2.5em;
-    bottom: 0;
-  }
 }
 
-@media only screen and (max-width: 500px)
-{
-  body
-  {
+@media only screen and (max-width: 500px){
+  body{
     font-size: 1em;
   }
-
-  .contact-ul
-  {
-    flex-direction: column;
-  }
-
-  #projects section, #projects section:nth-child(2n+1)
-  {
-    text-align: center;
-    align-self: center;
-  }
-
-  .column-wrapper
-  {
-    justify-content: initial !important;
-    overflow-x: auto;
-  }
-
-  .column-wrapper > article
-  {
-    padding: 0;
-  }
 }
 
-@media only screen and (max-width: 375px)
-{
-  header
-  {
+@media only screen and (max-width: 375px){
+  header{
     font-size: 90%;
   }
 }

@@ -1,11 +1,9 @@
-html, body, main
-{
+html, body, main{
   min-height: 100vh;
   min-width: 100%;
 }
 
-body
-{
+body{
   font-family: $font;
   font-size: 1.2rem;
   line-height: 1.618;
@@ -16,54 +14,27 @@ body
   color: $content-text;
 }
 
-main
-{
+main{
   display: flex;
   flex-direction: column;
   padding: 0;
 }
 
-img
-{
+img{
   max-width: 100%;
 }
 
-nav > ul{
+.socials{
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
 }
 
-footer
-{
-  margin: auto auto 0 auto;
+.socials > li{
   flex-shrink: 0;
-  width: 100%;
-}
-
-.socials > li
-{
-  font-size: 1.75em;
   margin: 0 0.5em 0 0.5em;
-}
-
-#toTop{
- display: none;
- position: fixed;
- bottom: 1em;
- right: 1em;
- border: none;
- outline: none;
-  color: $header-text;
-  background: $header-bg;
- cursor: pointer;
- padding: 0.5em;
-  
-  transition-duration: 0.2s;
-}
-
-#toTop:hover {
-  background-color: $content-bg;
-  color: $content-text;
+  font-size: 1.75em;
 }

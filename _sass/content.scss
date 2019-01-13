@@ -1,5 +1,4 @@
-.content-wrapper
-{
+.content-wrapper{
   display: flex;
   flex-direction: column;
   flex-shrink: 1;
@@ -9,46 +8,32 @@
   margin-right: auto;
 }
 
-.content-wrapper > article
-{
+.content-wrapper > article{
   display: flex;
   flex-direction: column;
 }
 
-.content-wrapper > article > h2
-{
+.content-wrapper > article > h2{
   border-bottom: 1px solid $content-header-border;
 }
 
-article
-{
+article{
   padding: 1em;
 }
 
-article a
-{
+article a{
  color: $content-a;
  text-decoration: underline;
 }
 
-article a:visited
-{
+article a:visited{
  color: $content-a;
 }
 
-article a:hover
-{
+article a:hover{
  color: $content-a-hover;
 }
 
-article a:active
-{
+article a:active{
  color: $content-a-active;
-}
-
-.to-top
-{
- margin: -3.1em 0 0 2em;
- padding-right: 0.25em;
- align-self: flex-start;
 }
