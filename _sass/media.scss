@@ -1,27 +1,53 @@
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1500px){
   body{
     font-size: 1.5em;
   }
 
-  .content-wrapper{
+  main{
     max-width: 60%;
   }
 }
 
-@media only screen and (max-width: 800px){
-  header h1{
-    font-size: 300%;
-  }
-}
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 900px){
   body{
     font-size: 1em;
   }
 }
 
-@media only screen and (max-width: 375px){
-  header{
+@media only screen and (max-width: 600px){
+  body{
+    font-size: 1.25em;
+  }
+
+  article ul > li{
+    width: 100%;
+  }
+
+  article{
+    padding: 0;
+  }
+
+  article h2{
+    margin-bottom: 0;
+  }
+
+  footer{
     font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  body{
+    font-size: 1em;
+  }
+
+  header{
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  body{
+    font-size: 0.9em;
   }
 }
