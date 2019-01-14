@@ -19,20 +19,22 @@ article > h2{
 }
 
 article a{
- color: $content-a;
- text-decoration: underline;
+  display: block;
+  padding: 0.5em;
+  color: $content-a;
+  text-decoration: none;
 }
 
 article a:visited{
- color: $content-a;
+  color: $content-a;
 }
 
 article a:hover{
- color: $content-a-hover;
+  color: $content-a-hover;
 }
 
 article a:active{
- color: $content-a-active;
+  color: $content-a-active;
 }
 
 article ul, article ol{
@@ -50,7 +52,7 @@ article ol{
 
 article ol > li{
   padding: 0 0.5em;
-  margin: 0 0.25em;
+  margin: 0.25em;
   border-radius: 10%;
 
   background-color: #53c484;
@@ -60,18 +62,31 @@ article ol > li{
 article ul > li{
   width: 40%;
   margin: 0.5em;
-  padding: 0.5em;
 
-  border: 1px solid lightgray;
+  background-color: $content-item-bg;
+
+  border: 1px solid $content-header-border;
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
   border-radius: 3%;
 }
 
-article ul >li h3{
-  border-bottom: 1px solid lightgray;
+@keyframes lihover{
+  from {tranform: translateY(0);}
+  to {transform: translateY(-1em);}
 }
 
-article ul > li > *{
+article ul > li:hover{
+  animation-name: lihover;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+article ul >li h3{
+  border-bottom: 1px solid $content-header-border;
+}
+
+article ul > li > a > *{
   margin: 0.25em;
 }
