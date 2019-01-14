@@ -7,17 +7,15 @@ main{
   margin: 1em auto;
 }
 
-main > article{
+article{
   display: flex;
   flex-direction: column;
-}
-
-main > article > h2{
-  border-bottom: 1px solid $content-header-border;
-}
-
-article{
   padding: 1em;
+}
+
+article > h2{
+  margin-top: 0;
+  border-bottom: 1px solid $content-header-border;
 }
 
 article a{
@@ -35,4 +33,45 @@ article a:hover{
 
 article a:active{
  color: $content-a-active;
+}
+
+article ul, article ol{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+article ol{
+  justify-content: left;
+}
+
+article ol > li{
+  padding: 0 0.5em;
+  margin: 0 0.25em;
+  border-radius: 10%;
+
+  background-color: #53c484;
+  color: #fff;
+}
+
+article ul > li{
+  width: 40%;
+  margin: 0.5em;
+  padding: 0.5em;
+
+  border: 1px solid lightgray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-radius: 3%;
+}
+
+article ul >li h3{
+  border-bottom: 1px solid lightgray;
+}
+
+article ul > li > *{
+  margin: 0.25em;
 }

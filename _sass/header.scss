@@ -1,5 +1,6 @@
 header{
   height: 50vh;
+  min-height: 17em;
   display: flex;
 
   background-color: $header-bg;
@@ -11,7 +12,7 @@ header > .header-wrapper{
   align-self: flex-end;
   left: 0;
   text-align: left;
-  margin: 0 0 5vh 10vw;
+  padding: 0 0 5vh 10vw;
 }
 
 header a{

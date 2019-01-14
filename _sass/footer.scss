@@ -1,8 +1,8 @@
 footer{
   margin: auto auto 0 auto;
-  padding: 0.5em 0;
+  padding: 0.5em 10vw;
   flex-shrink: 0;
-  width: 100%;
+  width: calc(100% - 20vw);
   color: $footer-text;
   background-color: $footer-bg;
 }
@@ -28,7 +28,6 @@ footer a:active{
 footer > div{
   display: flex;
   justify-content: space-between;
-  padding: 0 1em;
 }
 
 footer p{
