@@ -5,10 +5,9 @@ nav{
   position: fixed;
   top: 0;
   z-index: 1;
-  padding: 0 2em;
   border-bottom: 1px solid $nav-border;
 
-  width: calc(100vw - 4em);
+  width: 100%;
   height: 3em;
 
   background-color: $nav-bg;
@@ -16,6 +15,7 @@ nav{
 
 nav a:link{
   color: $nav-a;
+  margin: 0 2em;
 }
 
 nav a:visited{
