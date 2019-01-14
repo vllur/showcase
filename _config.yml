@@ -30,3 +30,11 @@ google_analytics: ""
 owner: "vllur"
 lang: "en_GB"
 iso-lang: "en"
+
+nav-first: "Lorem"
+nav-first-link: "/"
+
+nav-second: "Ipsum"
+nav-second-link: "/"
+
+footer: "Lorem ipsum dolor"
