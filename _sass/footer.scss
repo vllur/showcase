@@ -1,5 +1,6 @@
 footer{
   margin: auto auto 0 auto;
+  padding: 0.5em 0;
   flex-shrink: 0;
   width: 100%;
   color: $footer-text;
@@ -26,5 +27,14 @@ footer a:active{
 
 footer > div{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+footer p{
+  display: flex;
+  align-items: center;
+  max-width: 33%;
+  margin: 0;
+  padding-left: 1em;
 }
