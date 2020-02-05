@@ -73,13 +73,13 @@ article ul > li{
 
 @keyframes lihover{
   from {tranform: translateY(0);}
-  to {transform: translateY(-1em);}
+  to {transform: translateY(-0.6em);}
 }
 
 article ul > li:hover{
   animation-name: lihover;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
+  animation-duration: 0.3s;
+  animation-iteration-count: 4;
   animation-direction: alternate;
 }
 
