@@ -4,7 +4,7 @@ footer{
   flex-shrink: 0;
   width: calc(100% - 20vw);
   color: $footer-text;
-  background-color: $footer-bg;
+  background: $footer-bg;
 }
 
 footer a{

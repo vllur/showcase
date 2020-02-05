@@ -14,8 +14,10 @@ $content-a-hover: #303030;
 $content-a-active: #5c5c5c;
 $content-header-border: lightgrey;
 $content-item-bg: $content-bg;
+$content-tag-bg: linear-gradient(90deg, rgba(51,187,136,1) 0%, rgba(50,182,141,1) 50%, rgba(44,186,127,1) 100%); //#53c484;
+$content-tag: #fff;
 
-$footer-bg: #242323;
+$footer-bg: $header-bg;//#242323;
 $footer-text: #fff;
 $footer-a: #fff;
 $footer-a-hover: #def3e7;

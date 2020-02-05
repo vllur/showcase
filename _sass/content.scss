@@ -55,8 +55,8 @@ article ol > li{
   margin: 0.25em;
   border-radius: 10%;
 
-  background-color: #53c484;
-  color: #fff;
+  background: $content-tag-bg;
+  color: $content-tag;
 }
 
 article ul > li{
