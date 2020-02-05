@@ -2,11 +2,7 @@
 
 Simple portfolio-showcase Jekyll theme.
 
-### Dependencies:
-  - [particle.js](https://github.com/VincentGarreau/particles.js/)
-  - [Fontello](http://fontello.com/)
-
-See [Gemfile](./Gemfile) and [_config.yml](./_config.yml) for list of all gems & Jekyll plugins.
+See [Gemfile](./Gemfile) and [_config.yml](./_config.yml) for list of all used gems & Jekyll plugins.
 
 ### Font license info:
 #### Font Awesome
