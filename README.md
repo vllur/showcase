@@ -5,7 +5,6 @@ Simple portfolio-showcase Jekyll theme.
 ### Dependencies:
   - [particle.js](https://github.com/VincentGarreau/particles.js/)
   - [Fontello](http://fontello.com/)
-  - Google Analytics
 
 See [Gemfile](./Gemfile) and [_config.yml](./_config.yml) for list of all gems & Jekyll plugins.
 

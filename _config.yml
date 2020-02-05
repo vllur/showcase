@@ -2,7 +2,7 @@ title: "showcase"
 description: "Simple portfolio-showcase Jekyll theme."
 author:
   name: "showcase"
-  
+
 url: "https://vllur.github.io"
 baseurl: /showcase
 source: .
@@ -26,7 +26,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-google_analytics: ""
 owner: "vllur"
 lang: "en_GB"
 iso-lang: "en"
