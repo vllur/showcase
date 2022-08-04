@@ -4,10 +4,10 @@
 
   <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/fontello.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
 
-  <link rel="shortcut icon" type="image/png" href="{{ "/favicon.ico" | prepend: site.baseurl }}"/>
+  <link rel="shortcut icon" type="image/png" href="{{ "/favicon.ico" | relative_url }}"/>
 
   {% seo title=false %}
 </head>
